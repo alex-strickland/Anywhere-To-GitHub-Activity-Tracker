@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Pass all args to git push
+echo "▶️ Running: git push $@"
+git push "$@"
+
+# Check if push succeeded
+if [ $? -eq 0 ]; then
+    echo "🚀 Push succeeded. Running activity"
+    python3 push_to_git.py
+else
+    echo "❌ Push failed. Skipping anonymizer."
+fi
