@@ -7,3 +7,5 @@ This script is just an extra layer added to the `git push` command. And now, eve
 ----
 
 To run, ensure the `\bin` folder is added to your environment variable Path. Ensure Python 3 is installed, and added to Path. 
+
+Once this is done, you can run `gitpush` everywhere you'd normally use `git push`.
