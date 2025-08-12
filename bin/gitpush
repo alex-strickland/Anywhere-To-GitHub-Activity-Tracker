@@ -7,7 +7,7 @@ git push "$@"
 # Check if push succeeded
 if [ $? -eq 0 ]; then
     echo "🚀 Push succeeded. Running activity"
-    python3 push_to_git.py
+    python C:\\Users\\alexs\\IdeaProjects\\working-activity\\push_to_git.py
 else
     echo "❌ Push failed. Skipping anonymizer."
 fi

@@ -2,6 +2,7 @@ import subprocess
 import sys
 from pathlib import Path
 import random
+import string
 
 REPO_PATH = Path("C:/Users/alexs/IdeaProjects/working-activity")  # <-- Change this!
 FILE_NAME = "filetopush.txt"
