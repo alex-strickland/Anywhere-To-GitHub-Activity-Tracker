@@ -7,7 +7,7 @@ import string
 REPO_PATH = Path("C:/Users/alexs/IdeaProjects/working-activity")  # <-- Change this!
 FILE_NAME = "filetopush.txt"
 FILE_CONTENT = "This is a file created by a Python script.\n"
-COMMIT_MESSAGE = "Add or update example.txt"
+COMMIT_MESSAGE = "Update filetopush.txt - by Azure activity"
 BRANCH = "main"
 REMOTE = "origin"
 
